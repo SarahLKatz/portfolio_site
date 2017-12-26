@@ -1,5 +1,9 @@
+import Layout from '../Components/Layout'
+
 export default () => {
   return (
-    <h1>Sarah Katz</h1>
+    <Layout>
+      <h1>Sarah Katz</h1>
+    </Layout>
   )
 }

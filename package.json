@@ -1,9 +1,10 @@
 {
   "name": "portfolio_site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sarah's Portfolio",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.17.1",
     "next": "^4.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"

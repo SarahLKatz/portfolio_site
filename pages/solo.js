@@ -7,24 +7,13 @@ export default () => {
       <div className="projects">
         <div className="single-project">
           <Project 
-            title="This Title" 
-            img="http://lorempixel.com/300/300/" 
-            company="Fullstate" 
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
-        </div>
-        <div className="single-project">
-          <Project 
-            title="This Title" 
-            img="http://lorempixel.com/300/300/" 
-            company="Fullstate" 
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
-        </div>
-        <div className="single-project">
-          <Project 
-            title="This Title" 
-            img="http://lorempixel.com/300/300/" 
-            company="Fullstate" 
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+            title="Pics or You Didn't Medal" 
+            img="/static/projects/racemedalpics.jpg" 
+            presentation="https://youtu.be/9ECIo97spzI"
+            company="Fullstack Academy" 
+            description="This app, built for a five-day hackathon, allows users to input a race, date and location, and when they log in after the race, they will be shown some pictures taken nearby that can serve as inspiration for their post-race medal pictures. Users can also connect a Strava account and pull their latest workout data to receive photo inspiration. It features a front end and store state built with React-Redux, a backend built with Node.js and Express, and a PostgreSQL database to store user and race information."
+            live="http://racemedalpics.herokuapp.com"
+            tech="React, Redux, React-Redux, Flickr API, Nominatim API, Strava API"/>
         </div>
       </div>
       <style jsx>{`

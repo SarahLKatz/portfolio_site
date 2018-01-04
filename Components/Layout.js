@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './Header'
 import Head from 'next/head'
 
@@ -15,7 +15,7 @@ const Layout = (props) => {
         { props.children }
       </div>
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css?family=Lato');
+        @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
         * {
           box-sizing: border-box;
@@ -28,16 +28,20 @@ const Layout = (props) => {
 
         .content {
           background-color: rgba(8, 107, 129, 0.1);
-          height: 93vh;
+          min-height: 93vh;
           padding: 3vh 2vh 0 2vh;
         }
 
-        h1, h2, h3, p {
+        h1, h2, h3, h4, h5, p {
           margin: 0;
         }
 
         .highlight {
           color: rgb(129, 8, 107);
+        }
+
+        .bold {
+          font-weight: 700;
         }
       `}</style>
     </div>

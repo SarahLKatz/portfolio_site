@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Project = (props) => {
-  const {live, title, img, date, company, description, tech, presentation} = props;
+  const {live, title, img, date, company, team, description, tech, presentation} = props;
   return (
     <div>
       <div className="single-project">
@@ -14,6 +14,7 @@ const Project = (props) => {
         { img && <img src={img} /> }
         <h4>{ date }</h4>
         <h4><span className="bold">Created while at</span> { company }</h4>
+        { team && <h4>Team Members: { team }</h4> }
         <p className="description">
           { description }
         </p>

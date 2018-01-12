@@ -1,4 +1,4 @@
-import {Layout, Project} from '../Components/Layout'
+import {Layout, Project} from '../Components'
 
 export default () => {
   return (

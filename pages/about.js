@@ -64,17 +64,6 @@ const Tech = () => (
         <img src="/static/logos/jest.png" alt="Jest" />
       </div>
     </div>
-    <style jsx>{`
-      .logos {
-        display: flex;
-        align-items: center;
-      }
-
-      .tech-type {
-        margin: 1vh 0;
-        padding: 0 0.5vh; 
-      }
-    `}</style>
   </Fragment>
 )
 
@@ -129,11 +118,6 @@ const Education = () => (
         </td>
       </tr>
     </table>
-    <style jsx>{`
-      tr {
-        margin-top: 0.25vh;
-      }
-    `}</style>
   </Fragment>
 )
 
@@ -167,45 +151,48 @@ const Experience = () => (
         </td>
       </tr>
     </table>
-    <style jsx>{`
-      tr {
-        margin-top: 0.25vh;
-      }
-    `}</style>
   </Fragment>
 )
 
 const AboutStyles = () => (
-  <style jsx>
-  {`
-        .about {
-          line-height: 1.25em;
-        }
+  <style jsx>{`
+    .about {
+      line-height: 1.25em;
+    }
 
-        .large {
-          font-size: 2em;
-        }
-        
-        img {
-          width: 3.5vw;
-          margin: auto 1vw;
-          padding-top: 0.5vh;
-          padding-bottom: 0.5vh;
-        }
+    .large {
+      font-size: 2em;
+    }
+    
+    img {
+      width: 3.5vw;
+      margin: auto 1vw;
+      padding-top: 0.5vh;
+      padding-bottom: 0.5vh;
+    }
 
-        tr {
-          margin-top: 0.25vh;
-        }
+    tr {
+      margin-top: 0.25vh;
+    }
 
-        .tables {
-          display: flex;
-        }
+    .logos {
+      display: flex;
+      align-items: center;
+    }
 
-        .topic {
-          margin-top: 2vh;
-          margin-right: 1vh;
-          padding: 1vh;
-        }
-      `}
-  </style>
+    .tables {
+      display: flex;
+    }
+
+    .topic {
+      margin-top: 2vh;
+      margin-right: 1vh;
+      padding: 1vh;
+    }
+
+    .tech-type {
+      margin: 1vh 0;
+      padding: 0 0.5vh; 
+    }
+  `}</style>
 )

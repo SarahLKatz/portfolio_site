@@ -26,13 +26,6 @@ const Layout = (props) => {
           max-width: 100%
         }
 
-        .topic img {
-          width: 3.5vw;
-          margin: auto 1vw;
-          padding-top: 0.5vh;
-          padding-bottom: 0.5vh;
-        }
-
         .content {
           background-color: rgba(8, 107, 129, 0.1);
           min-height: 93vh;

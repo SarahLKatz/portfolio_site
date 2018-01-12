@@ -1,5 +1,4 @@
-import Layout from '../Components/Layout';
-import BlogPost from '../Components/BlogPost';
+import {BlogPost, Layout} from '../Components/';
 
 export default () => {
   return (

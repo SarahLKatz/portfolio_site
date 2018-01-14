@@ -7,14 +7,14 @@ export default () => {
         <MostRecent 
           type="Book Read"
           name="Life in Code: A Personal History of Technology"
-          picture="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2017%2F05%2Flife-in-code.jpg%3Fw%3D450&w=800&q=85"
+          picture="/static/mostRecent/book.jpeg"
           creator="By Ellen Ullman"
           review="1"
         />
         <MostRecent 
           type="Movie Seen"
           name="Pitch Perfect 3"
-          picture="https://images-na.ssl-images-amazon.com/images/M/MV5BNjEyMjk4NTE1NV5BMl5BanBnXkFtZTgwOTgzNzA3MjI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+          picture="/static/mostRecent/movie.jpg"
           creator="Universal Pictures"
           review="5"
         />

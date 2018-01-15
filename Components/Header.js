@@ -5,27 +5,66 @@ export default class Header extends Component {
   render () {
     return (
       <div className="header">
-        <Link href="/"><a>Home</a></Link>
-        <Link href="/about"><a>About</a></Link>
-        <Link href="/solo"><a>Solo Projects</a></Link>
-        <Link href="/group"><a>Group Projects</a></Link>
-        <Link href="/blog"><a>Life As A Coder</a></Link>
-        <Link href="/sarah"><a>Life Outside Coding</a></Link>
+        <button className="menu" onClick={() => showMenu}>|||</button>
+        <div className="links">
+          <Link href="/"><a>Home</a></Link>
+          <Link href="/about"><a>About</a></Link>
+          <Link href="/solo"><a>Solo Projects</a></Link>
+          <Link href="/group"><a>Group Projects</a></Link>
+          <Link href="/blog"><a>Life As A Coder</a></Link>
+          <Link href="/sarah"><a>Life Outside Coding</a></Link>
+        </div>
         <style jsx>{`
           .header {
-            height: 7vh;
             background-color: rgba(109, 131, 8, 0.5);
+          }
+
+          .links {
+            height: 7vh;
             display: flex;
             align-items: center;
             justify-content: space-around;
+          }
+
+          .menu {
+            display: none;
           }
 
           a {
             text-decoration: none;
             margin-right: 1em
           }
+
+          @media only screen and (max-width: 768px) {
+            .links {
+              flex-direction: column;
+              align-items: flex-start;
+              height: 50vh;
+              width: 50vh;
+              display: none;
+            }
+
+            .unhide {
+              display: inline;
+              color: red;
+            }
+
+            .menu {
+              display: inline;
+              width: 2vw;
+            }
+
+            a {
+              margin: 0 0.25vh;
+            }
+          }
         `}</style>
       </div>
     )
   }
+}
+
+const showMenu = () => {
+  let div = document.getElementsByClassName('links')[0]
+  div.classList.toggle('unhide')
 }

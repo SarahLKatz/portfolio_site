@@ -19,6 +19,13 @@ export default () => {
           review="5"
         />
         <MostRecent 
+          type="Music Purchased"
+          name="Aggroculture"
+          picture="/static/mostRecent/music.jpg"
+          creator="Fitness"
+          review="5"
+        />
+        <MostRecent 
           type="Race"
           name="Prospect Park Track Club Turkey Trot 5 Miler"
           date="11/23/2017"
@@ -39,6 +46,14 @@ export default () => {
           name="Walt Disney World"
           date="January 2016"
           picture="/static/mostRecent/vacay.jpg"
+        />
+        <MostRecent 
+          type="Museum Visited"
+          name="Museum of Modern Art"
+          date="July 2017"
+          picture="/static/mostRecent/museum.jpg"
+          dataType="Special Exhibit"
+          data="Frank Lloyd Wright at 150: Unpacking the Archive"
         />
         <MostRecent 
           type="Sporting Event"

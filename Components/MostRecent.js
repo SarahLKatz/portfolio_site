@@ -14,7 +14,7 @@ const MostRecent = props => {
     <style jsx>{`
       .recent {
         margin: 1vh;
-        width: 25vw;
+        width: 23vw;
         text-align: center;
         padding: 1vh;
         border: 0.25vh solid #DDD;

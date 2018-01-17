@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 const Layout = (props) => {
   return (
-    <div>
+    <div className="page">
       <Head>
         <title>Sarah L Katz</title>
         <meta charSet='utf-8' />
@@ -29,6 +29,7 @@ const Layout = (props) => {
         .content {
           background-color: rgba(8, 107, 129, 0.1);
           min-height: 93vh;
+          min-width: 90vw;
           padding: 3vh 2vh 0 2vh;
         }
 
@@ -42,6 +43,12 @@ const Layout = (props) => {
 
         .bold {
           font-weight: 700;
+        }
+
+        @media only screen and (max-width: 768px) {
+          .page {
+            display: flex;
+          }
         }
       `}</style>
     </div>

@@ -36,6 +36,12 @@ export default () => {
         .single-project {
           flex: 0.3;
         }
+
+        @media only screen and (max-width: 768px) {
+          .single-project {
+            margin: 1vh;
+          }
+        }
       `}</style>
     </Layout>
   )

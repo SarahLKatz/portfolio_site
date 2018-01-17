@@ -10,7 +10,7 @@ export default class Header extends Component {
   render () {
     return (
       <div className="header">
-        <button className="menu" onClick={this.showMenu.bind(this)}>&#9776;</button>
+        <span className="menu" onClick={this.showMenu.bind(this)}>&#9776;</span>
         <div className="links">
           <Link href="/"><a>Home</a></Link>
           <Link href="/about"><a>About</a></Link>
@@ -63,7 +63,10 @@ export default class Header extends Component {
             }
 
             .menu {
-              display: inline;
+              padding-top: 3vh;
+              padding-left: 0.25vw;
+              padding-right: 0.25vw;
+              display: block;
             }
 
             a {

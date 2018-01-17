@@ -28,6 +28,17 @@ const MostRecent = props => {
         max-width: 20vw;
         margin: 1vh;
       }
+      @media only screen and (max-width: 768px) {
+        .recent {
+          width: 40vw;
+        }
+
+        img {
+          max-width: 10vw;
+          max-height: 12.5vh;
+          margin: 0.5vh;
+        }
+      }
     `}</style>
     </div>
   )

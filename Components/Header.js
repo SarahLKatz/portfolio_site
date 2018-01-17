@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 
 export default class Header extends Component {
+  showMenu () {
+    let div = document.getElementsByClassName('links')[0]
+    div.classList.toggle('unhide')
+  }
+
   render () {
     return (
       <div className="header">
-        <button className="menu" onClick={() => showMenu}>|||</button>
+        <button className="menu" onClick={this.showMenu.bind(this)}>&#9776;</button>
         <div className="links">
           <Link href="/"><a>Home</a></Link>
           <Link href="/about"><a>About</a></Link>
@@ -30,6 +35,11 @@ export default class Header extends Component {
             display: none;
           }
 
+          .unhide {
+            display: inline;
+            color: red;
+          }
+
           a {
             text-decoration: none;
             margin-right: 1em
@@ -39,9 +49,12 @@ export default class Header extends Component {
             .links {
               flex-direction: column;
               align-items: flex-start;
-              height: 50vh;
-              width: 50vh;
               display: none;
+            }
+
+            a {
+              display: block;
+              white-space: nowrap;
             }
 
             .unhide {
@@ -51,7 +64,6 @@ export default class Header extends Component {
 
             .menu {
               display: inline;
-              width: 2vw;
             }
 
             a {
@@ -62,9 +74,4 @@ export default class Header extends Component {
       </div>
     )
   }
-}
-
-const showMenu = () => {
-  let div = document.getElementsByClassName('links')[0]
-  div.classList.toggle('unhide')
 }

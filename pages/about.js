@@ -71,52 +71,54 @@ const Education = () => (
   <Fragment>
     <h3 className="highlight">My Education</h3>
     <table>
-      <tr>
-        <td>
-          <img src="/static/logos/fullstack.png" alt="Fullstack Academy" />
-        </td>
-        <td>
-          <h4>Fullstack Academy of Code</h4> 
-          <p>NYC Web Development Fellowship ~ August 2017 - December 2017</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="/static/logos/ga.png" alt="General Assembly" />
-        </td>
-        <td>
-          <h4>General Assembly</h4> 
-          <p>Front End Web Development (Part-Time Course) ~ January 2017 - March 2017</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="/static/logos/fit.png" alt="Fashion Institute of Technology" />
-        </td>
-        <td>
-          <h4>Fashion Institute of Technology, School of Continuing and Professional Studies</h4> 
-          <p>Certificate in Computer Essentials for Graphic Design ~ September 2013 - December 2014</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="/static/logos/downstate.png" alt="SUNY Downstate" />
-        </td>
-        <td>
-          <h4>SUNY Downstate Medical Center, College of Health Related Professions</h4> 
-          <p>BS, Health Sciences ~ June 2009 - May 2010</p>
-          <p>DPT, Incomplete ~ June 2009 - December 2011</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="/static/logos/yu.png" alt="Stern College for Women" />
-        </td>
-        <td>
-          <h4>Yeshiva University, Stern College for Women</h4> 
-          <p>BA, Biology ~ August 2004 - May 2009</p>
-        </td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>
+            <img src="/static/logos/fullstack.png" alt="Fullstack Academy" />
+          </td>
+          <td>
+            <h4>Fullstack Academy of Code</h4> 
+            <p>NYC Web Development Fellowship ~ August 2017 - December 2017</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="/static/logos/ga.png" alt="General Assembly" />
+          </td>
+          <td>
+            <h4>General Assembly</h4> 
+            <p>Front End Web Development (Part-Time Course) ~ January 2017 - March 2017</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="/static/logos/fit.png" alt="Fashion Institute of Technology" />
+          </td>
+          <td>
+            <h4>Fashion Institute of Technology, School of Continuing and Professional Studies</h4> 
+            <p>Certificate in Computer Essentials for Graphic Design ~ September 2013 - December 2014</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="/static/logos/downstate.png" alt="SUNY Downstate" />
+          </td>
+          <td>
+            <h4>SUNY Downstate Medical Center, College of Health Related Professions</h4> 
+            <p>BS, Health Sciences ~ June 2009 - May 2010</p>
+            <p>DPT, Incomplete ~ June 2009 - December 2011</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="/static/logos/yu.png" alt="Stern College for Women" />
+          </td>
+          <td>
+            <h4>Yeshiva University, Stern College for Women</h4> 
+            <p>BA, Biology ~ August 2004 - May 2009</p>
+          </td>
+        </tr>
+      </tbody>
     </table>
   </Fragment>
 )
@@ -125,31 +127,33 @@ const Experience = () => (
   <Fragment>
     <h3 className="highlight">My Experience</h3>
     <table>
-      <tr>
-        <td>
-          <img src="/static/logos/design.png" alt="Sarah L.K. Design" />
-        </td>
-        <td>
-          <h4>Self-Employed</h4> 
-          <p>Freelance Graphic Designer ~ August 2013 - May 2017</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="/static/logos/carlebach.png" alt="The Carlebach Shul" />
-        </td>
-        <td>
-          <h4>The Carlebach Shul</h4> 
-          <p>Assistant Office Manager ~ November 2011 - July 2013</p>
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-          <h4>Heartbeat Software</h4> 
-          <p>Data Intern ~ June 2018 - May 2009</p>
-        </td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>
+            <img src="/static/logos/design.png" alt="Sarah L.K. Design" />
+          </td>
+          <td>
+            <h4>Self-Employed</h4> 
+            <p>Freelance Graphic Designer ~ August 2013 - May 2017</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="/static/logos/carlebach.png" alt="The Carlebach Shul" />
+          </td>
+          <td>
+            <h4>The Carlebach Shul</h4> 
+            <p>Assistant Office Manager ~ November 2011 - July 2013</p>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <h4>Heartbeat Software</h4> 
+            <p>Data Intern ~ June 2018 - May 2009</p>
+          </td>
+        </tr>
+      </tbody>
     </table>
   </Fragment>
 )
@@ -193,6 +197,25 @@ const AboutStyles = () => (
     .tech-type {
       margin: 1vh 0;
       padding: 0 0.5vh; 
+    }
+
+    @media only screen and (max-width: 768px) {
+      body {
+        font-size: 85%;
+      }
+
+      img {
+        width: 6vw;
+        margin: 0.5vh;
+      }
+
+      .tables {
+        display: block;
+      }
+
+      .large {
+        font-size: 1.25em;
+      }
     }
   `}</style>
 )

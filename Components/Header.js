@@ -13,7 +13,7 @@ export default class Header extends Component {
         <span className="menu" onClick={this.showMenu.bind(this)}>&#9776;</span>
         <div className="links">
           <Link href="/"><a>Home</a></Link>
-          <Link href="/about"><a>About</a></Link>
+          <Link href="/about"><a>Resume</a></Link>
           <Link href="/solo"><a>Solo Projects</a></Link>
           <Link href="/group"><a>Group Projects</a></Link>
           <Link href="/blog"><a>Life As A Coder</a></Link>

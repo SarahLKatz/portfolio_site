@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Footer} from './'
 import Link from 'next/link';
 
 export default class Header extends Component {
@@ -13,11 +14,14 @@ export default class Header extends Component {
         <span className="menu" onClick={this.showMenu.bind(this)}>&#9776;</span>
         <div className="links">
           <Link href="/"><a>Home</a></Link>
-          <Link href="/about"><a>About</a></Link>
+          <Link href="/about"><a>Resume</a></Link>
           <Link href="/solo"><a>Solo Projects</a></Link>
           <Link href="/group"><a>Group Projects</a></Link>
           <Link href="/blog"><a>Life As A Coder</a></Link>
           <Link href="/sarah"><a>Life Outside Coding</a></Link>
+          <div className="contact">
+            <a href="mailto:soshasarah+from-site@gmail.com">sarah@sarahlkatz.com</a>
+          </div>
         </div>
         <style jsx>{`
           .header {
@@ -43,6 +47,10 @@ export default class Header extends Component {
           a {
             text-decoration: none;
             margin-right: 1em
+          }
+
+          .contact {
+            display: none;
           }
 
           @media only screen and (max-width: 768px) {
@@ -71,6 +79,11 @@ export default class Header extends Component {
 
             a {
               margin: 0 0.25vh;
+            }
+
+            .contact {
+              display: inline-block;
+              margin-top: 5vh;
             }
           }
         `}</style>

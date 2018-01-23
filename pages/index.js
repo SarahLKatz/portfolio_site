@@ -1,4 +1,4 @@
-import {Layout} from '../Components'
+import {Layout, Footer} from '../Components'
 
 export default () => {
   return (
@@ -23,6 +23,16 @@ export default () => {
         img {
           margin-left: 2vw;
           height: 30vh;
+        }
+
+        @media only screen and (max-width: 768px) {
+          .about {
+            display: inline-block;
+          }
+
+          img {
+            margin: 1.5vh 0;
+          }
         }
       `}</style>
     </Layout>

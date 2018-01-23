@@ -6,8 +6,10 @@ export default class Footer extends Component {
       <Fragment>
         <div className="footer">
           <a href="mailto:soshasarah+from-site@gmail.com">sarah@DOMAINNAMEHERE.com</a>
-          <a href="https://linkedin.com/in/sarahlkatz" target="_blank"><img src="/static/logos/linkedin.png" /></a>
-          <a href="https://github.com/sarahlkatz" target="_blank"><img src="/static/logos/github.png" /></a>
+          <div className="social">
+            <a href="https://linkedin.com/in/sarahlkatz" target="_blank"><img src="/static/logos/linkedin.png" /></a>
+            <a href="https://github.com/sarahlkatz" target="_blank"><img src="/static/logos/github.png" /></a>
+          </div>
           <a href="/"> Designed By: Sarah L. Katz (2017-2018) </a>
         </div>
         <style jsx>{`
@@ -32,7 +34,13 @@ export default class Footer extends Component {
 
           @media only screen and (max-width: 768px) {
             .footer {
-              display: none;
+              display: block;
+              background-color: none;
+            }
+
+            .social {
+              display: flex;
+              justify-content: center;
             }
           }
         `}</style>

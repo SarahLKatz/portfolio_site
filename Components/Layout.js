@@ -14,7 +14,9 @@ const Layout = (props) => {
       <div className="content">
         { props.children }
       </div>
-      <Footer />
+      <div className="footer">
+        <Footer />
+      </div>
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
@@ -49,6 +51,10 @@ const Layout = (props) => {
         @media only screen and (max-width: 768px) {
           .page {
             display: flex;
+          }
+
+          .footer {
+            display: none;
           }
         }
       `}</style>

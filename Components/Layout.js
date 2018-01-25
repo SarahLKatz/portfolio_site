@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header, Footer} from './'
+import {Header } from './'
 import Head from 'next/head'
 
 const Layout = (props) => {
@@ -13,9 +13,6 @@ const Layout = (props) => {
       <Header />
       <div className="content">
         { props.children }
-      </div>
-      <div className="footer">
-        <Footer />
       </div>
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
@@ -31,7 +28,7 @@ const Layout = (props) => {
 
         .content {
           background-color: rgba(8, 107, 129, 0.1);
-          min-height: 87vh;
+          min-height: 91vh;
           min-width: 90vw;
           padding: 3vh 2vh 0 2vh;
         }
@@ -51,10 +48,6 @@ const Layout = (props) => {
         @media only screen and (max-width: 768px) {
           .page {
             display: flex;
-          }
-
-          .footer {
-            display: none;
           }
         }
       `}</style>

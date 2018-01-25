@@ -20,7 +20,7 @@ export default class Header extends Component {
           <Link href="/blog"><a>Life As A Coder</a></Link>
           <Link href="/sarah"><a>Life Outside Coding</a></Link>
           <div className="contact">
-            <a href="mailto:soshasarah+from-site@gmail.com">sarah@sarahlkatz.com</a>
+            <a href="mailto:soshasarah+from-site@gmail.com">soshasarah@gmail.com</a>
           </div>
         </div>
         <style jsx>{`

@@ -10,25 +10,24 @@ export default class Footer extends Component {
             <a href="https://linkedin.com/in/sarahlkatz" target="_blank"><img src="/static/logos/linkedin.png" /></a>
             <a href="https://github.com/sarahlkatz" target="_blank"><img src="/static/logos/github.png" /></a>
           </div>
-          <a href="/"> Designed By: Sarah L. Katz (2017-2018) </a>
         </div>
         <style jsx>{`
           .footer {
-            background-color: rgba(109, 131, 8, 0.5);
-            height: 5vh;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
           }
 
           a {
             text-decoration: none;
             color: rgb(129, 8, 107);
             margin: 0 0.5vw;
+            font-size: 1.5em;
           }
 
           img {
-            max-height: 3vh;
+            max-height: 2vw;
+            max-width: 3vw;
             margin: 0.5vh;
           }
 

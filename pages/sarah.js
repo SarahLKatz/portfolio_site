@@ -27,19 +27,19 @@ export default () => {
         />
         <MostRecent 
           type="Race"
-          name="Prospect Park Track Club Turkey Trot 5 Miler"
-          date="11/23/2017"
+          name="NYRR Fred Lebow Manhattan Half Marathon"
+          date="1/21/2018"
           picture="/static/mostRecent/race.png"
           dataType="Official Time"
-          data="57:18"
+          data="2:36:51"
         />
         <MostRecent 
           type="Race Medal"
-          name="Prospect Park Track Club Turkey Trot 5 Miler"
-          date="11/23/2017"
+          name="NYRR Fred Lebow Manhattan Half Marathon"
+          date="1/21/2018"
           picture="/static/mostRecent/raceMedal.jpg"
           dataType="Official Time"
-          data="57:18"
+          data="2:36:51"
         />
         <MostRecent 
           type="Vacation"

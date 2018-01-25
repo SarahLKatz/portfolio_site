@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return (
       <Fragment>
         <div className="footer">
-          <a href="mailto:soshasarah+from-site@gmail.com">sarah@DOMAINNAMEHERE.com</a>
+          <a href="mailto:soshasarah+from-site@gmail.com">soshasarah[at]gmail[dot]com</a>
           <div className="social">
             <a href="https://linkedin.com/in/sarahlkatz" target="_blank"><img src="/static/logos/linkedin.png" /></a>
             <a href="https://github.com/sarahlkatz" target="_blank"><img src="/static/logos/github.png" /></a>

@@ -33,9 +33,6 @@ trap cleanup_at_exit EXIT
 # but it needs to match the name of the branch we specify when we push to our heroku remote.
 git checkout -b deploy
 
-# "force" add the otherwise gitignored build files
-git add -f .next/
-
 # create a commit, even if nothing changed
 git commit --allow-empty -m 'Deploying'
 

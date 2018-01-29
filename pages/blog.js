@@ -4,6 +4,12 @@ export default () => {
   return (
     <Layout>
       <BlogPost 
+        title="I Give Up. This Site is Not Deploying."
+        date="January 28, 2018"
+        url="https://medium.com/@sarahscode/i-give-up-this-site-is-not-deploying-393d39b2c00b"
+        summary={`Since graduating from Fullstack, I’ve been working on my personal portfolio website. I’m using a framework called Next.js, which I learned for a portfolio enhancement piece during my time at Fullstack`}
+      />
+      <BlogPost 
         title="Can I Leave My Box? (Do I Want To?)"
         date="January 21, 2018"
         url="https://medium.com/@sarahscode/can-i-leave-my-box-do-i-want-to-fcb7811c0a62"

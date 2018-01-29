@@ -15,8 +15,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "deploy": "scripts/deploy"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "next build",
+    "deploy": "scripts/deploy",
   },
   "keywords": [],
   "author": "",

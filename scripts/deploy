@@ -2,7 +2,7 @@
 
 # Hello, welcome to a bash script.
 
-# This bash script deploys your application.
+# This bash script deploys my Next.js app to Herokus.
 
 # On the terminal you run individual
 # bash commands, and this file strings a bunch of commands together.
@@ -33,11 +33,8 @@ trap cleanup_at_exit EXIT
 # but it needs to match the name of the branch we specify when we push to our heroku remote.
 git checkout -b deploy
 
-# webpack will run in "production mode"
-webpack -p
-
 # "force" add the otherwise gitignored build files
-git add -f public/bundle.js public/bundle.js.map
+git add -f .next/
 
 # create a commit, even if nothing changed
 git commit --allow-empty -m 'Deploying'

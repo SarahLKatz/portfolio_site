@@ -3,6 +3,12 @@ import {BlogPost, Layout} from '../Components/';
 export default () => {
   return (
     <Layout>
+    <BlogPost 
+        title="Building My DotCom"
+        date="February 4, 2018"
+        url="https://medium.com/@sarahscode/building-my-dotcom-74b77a211878"
+        summary={`… Or how I went from “AWS Hates Me” to sarahlkatz.com (SPOILER: I didn’t use AWS)`}
+      />
       <BlogPost 
         title="I Give Up. This Site is Not Deploying."
         date="January 28, 2018"
@@ -20,12 +26,6 @@ export default () => {
         date="January 14, 2017"
         url="https://medium.com/@sarahscode/a-shy-developer-attends-an-event-take-two-afadd97428c7"
         summary={`A few weeks ago, I attended an event hosted by a company whose product I had used once. It was a bit of a disaster (not the event itself, my experience). On Wednesday I attended another event (technically this one was a meetup), and thankfully, it was much better`}
-      />
-      <BlogPost 
-        title="My Silent Struggle: The Social Aspect of Coding"
-        date="January 7, 2018"
-        url="https://medium.com/@sarahscode/my-silent-struggle-the-social-aspect-of-coding-f91433622b3b"
-        summary={`It’s a fairly well known fact that people struggle in coding bootcamps. It’s expected. Coding bootcamps are hard … you’re taking concepts that should take months to learn and squeezing them into days. It’s a lot of work and it’s far from easy`}
       />
       <a href="https://medium.com/@sarahscode" target="_blank"><h3 className="highlight">Read More Blog Posts on Medium</h3></a>
       <style jsx>{`

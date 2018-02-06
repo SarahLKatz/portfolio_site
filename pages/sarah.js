@@ -6,10 +6,10 @@ export default () => {
       <div className="container">
         <MostRecent 
           type="Book Read"
-          name="Life in Code: A Personal History of Technology"
-          picture="/static/mostRecent/book.jpeg"
-          creator="By Ellen Ullman"
-          review="1"
+          name="Lock In"
+          picture="/static/mostRecent/book.jpg"
+          creator="By John Scalzi"
+          review="4"
         />
         <MostRecent 
           type="Movie Seen"

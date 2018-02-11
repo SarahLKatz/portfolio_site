@@ -30,7 +30,6 @@ export default class Footer extends Component {
             height: 2vw;
             width: 2vw;
             margin: 0.5vh;
-            color: black;
           }
 
           @media only screen and (max-width: 768px) {

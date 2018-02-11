@@ -4,6 +4,12 @@ export default () => {
   return (
     <Layout>
     <BlogPost 
+        title="Suck It Up and Network (But Make It Easier On Yourself)"
+        date="February 11, 2017"
+        url="https://medium.com/@sarahscode/suck-it-up-and-network-but-make-it-easier-on-yourself-957dc88e196c"
+        summary={`I’ve blogged many times before about my struggles with networking and attending events. I know that networking can be very important, so when I spoke to my career success counselor from Fullstack last week, I asked for some tips on networking for people who struggle with networking. Here’s what she said — and how it worked for me`}
+      />
+    <BlogPost 
         title="Building My DotCom"
         date="February 4, 2018"
         url="https://medium.com/@sarahscode/building-my-dotcom-74b77a211878"
@@ -20,12 +26,6 @@ export default () => {
         date="January 21, 2018"
         url="https://medium.com/@sarahscode/can-i-leave-my-box-do-i-want-to-fcb7811c0a62"
         summary={`A few years ago, I applied for a position as an office coordinator position at a digital media company. At the time, I was very interested in that industry, and thought this would be a good way to get my foot in the door and learn more. The recruiter liked me enough to bring me in for an interview, but after the interview, she told me that I wasn’t right for the job (she liked my qualifications, but I just didn’t demonstrate a forceful enough personality … which I understand based on how that interview went)`}
-      />
-      <BlogPost 
-        title="A Shy Developer Attends An Event: Take Two"
-        date="January 14, 2017"
-        url="https://medium.com/@sarahscode/a-shy-developer-attends-an-event-take-two-afadd97428c7"
-        summary={`A few weeks ago, I attended an event hosted by a company whose product I had used once. It was a bit of a disaster (not the event itself, my experience). On Wednesday I attended another event (technically this one was a meetup), and thankfully, it was much better`}
       />
       <a href="https://medium.com/@sarahscode" target="_blank"><h3 className="highlight">Read More Blog Posts on Medium</h3></a>
       <style jsx>{`

@@ -123,6 +123,15 @@ const Experience = () => (
     <h3 className="highlight">My Experience</h3>
     <table>
       <tbody>
+      <tr>
+          <td>
+            <img src="/static/logos/techolution.jpg" alt="Techolution" />
+          </td>
+          <td>
+            <h4>Techolution</h4> 
+            <p>Full Stack UI Developer ~ February 2018 - Present</p>
+          </td>
+        </tr>
         <tr>
           <td>
             <img src="/static/logos/design.png" alt="Sarah L.K. Design" />

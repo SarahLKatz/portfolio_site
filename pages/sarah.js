@@ -57,11 +57,11 @@ export default () => {
         />
         <MostRecent 
           type="Sporting Event"
-          name="Kannapolis Intimidators at Lakewood BlueClaws"
-          date="9/4/2017"
+          name="Hartford Wolf Pack at Bridgeport Sound Tigers"
+          date="2/18/2018"
           picture="/static/mostRecent/sports.jpg"
           dataType="Final Score"
-          data="Lakewood 3, Kannapolis 2"
+          data="Bridgeport 4, Hartford 0"
         />
       </div>
       <style jsx>{`

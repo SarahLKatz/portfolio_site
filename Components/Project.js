@@ -5,7 +5,7 @@ const Project = (props) => {
   return (
     <div>
       <div className="single-project">
-        { 
+        {
           live ?
           <h3 className="highlight"><a href={live} target="_blank">{title}</a></h3>
           :
@@ -13,7 +13,7 @@ const Project = (props) => {
         }
         { img && <img src={img} /> }
         <h4>{ date }</h4>
-        <h4><span className="bold">Created while at</span> { company }</h4>
+        {company && <h4><span className="bold">Created while at</span> { company }</h4> }
         { team && <h4>Team Members: { team }</h4> }
         <p className="description">
           { description }

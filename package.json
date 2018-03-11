@@ -1,6 +1,6 @@
 {
   "name": "portfolio_site",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sarah's Portfolio",
   "main": "index.js",
   "dependencies": {

@@ -4,6 +4,12 @@ export default () => {
   return (
     <Layout>
     <BlogPost
+        title="Life's Second Chances"
+        date="April 22, 2018"
+        url="https://medium.com/@sarahscode/lifes-second-chances-4515e2bf87fa"
+        summary={`A friend of mine has a difficult decision he has to make. He’s in college, trying to decide between a major that will take him closer to his dream job but will force him to give up some of the extracurricular activities that he loves (and that help him pay for school) and a major that is less relevant to his dream job, but will allow him to keep up his extracurricular activites. Many of his friends that have been through this dilemma (including me) have been sharing our own life stories to try to help him make the decision.`}
+        />
+    <BlogPost
         title="My Perfect Workplace"
         date="April 15, 2018"
         url="https://medium.com/@sarahscode/my-perfect-workplace-279870863ace"
@@ -21,12 +27,6 @@ export default () => {
         url="https://medium.com/@sarahscode/youre-employed-what-s-your-advice-for-job-seekers-a7c8eaaf57e6"
         summary={`I’ve been at my new job for about a month now, and when I run into friends (either from Fullstack or from elsewhere) who are currently job searching, the #1 question I get asked is what advice I have for job searchers.`}
       />
-      <BlogPost
-        title="I Celebrate Being A Woman"
-        date="March 11, 2017"
-        url="https://medium.com/@sarahscode/i-celebrate-being-a-woman-3e2c34249ee7"
-        summary={`I have never really considered myself a part of a community of women. When given a choice, I’d rather talk sports with the guys than hang with the girls (even if the girls were talking sports too). I went to an all-girls high school and all-women college, and in both situations, I looked for any opportunity to spend time with the guys. Nothing against the women I know, I just never really had any interest in being a part of a community of women.`}
-        />
       <a href="https://medium.com/@sarahscode" target="_blank"><h3 className="highlight">Read More Blog Posts on Medium</h3></a>
       <style jsx>{`
         a {

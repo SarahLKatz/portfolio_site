@@ -27,11 +27,11 @@ export default () => {
         />
         <MostRecent
           type="Race"
-          name="United Airlines NYC Half"
-          date="3/18/2018"
+          name="Run As One (4M) Presented By JPMorgan Chase"
+          date="4/22/2018"
           picture="/static/mostRecent/race.png"
           dataType="Official Time"
-          data="2:27:50"
+          data="40:32"
         />
         <MostRecent
           type="Race Medal"

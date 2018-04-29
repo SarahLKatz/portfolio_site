@@ -4,6 +4,12 @@ export default () => {
   return (
     <Layout>
     <BlogPost
+        title="For Your Listening Pleasure"
+        date="April 29, 2018"
+        url="https://medium.com/@sarahscode/for-your-listening-pleasure-d45da363e141"
+        summary={`Early in my time at the Fullstack Academy coding bootcamp, our career success counselor recommended that we listen to podcasts as a way of keeping up with the tech world. As someone who had recently started listening to podcasts for entertainment on my commute (essential for any New Yorker, especially one with a commute as long as mine), I was excited to see what podcasts the tech world had to offer.`}
+      />
+    <BlogPost
         title="Life's Second Chances"
         date="April 22, 2018"
         url="https://medium.com/@sarahscode/lifes-second-chances-4515e2bf87fa"
@@ -20,12 +26,6 @@ export default () => {
         date="March 25, 2018"
         url="https://medium.com/@sarahscode/i-wish-i-had-known-8b33b6bfe07f"
         summary={`A little over a month ago, I started my first developer job. It hasn’t been exactly what I was expecting. For the first few weeks, I blamed the job. How could they not have a desk with a monitor set up for me? How could I not be assigned a project on as soon as I got there? Why didn’t they get my background check results from the consulting company I work for and issue me an ID on the first day?`}
-      />
-      <BlogPost
-        title="You’re Employed … What’s Your Advice For Job Seekers?"
-        date="March 18, 2018"
-        url="https://medium.com/@sarahscode/youre-employed-what-s-your-advice-for-job-seekers-a7c8eaaf57e6"
-        summary={`I’ve been at my new job for about a month now, and when I run into friends (either from Fullstack or from elsewhere) who are currently job searching, the #1 question I get asked is what advice I have for job searchers.`}
       />
       <a href="https://medium.com/@sarahscode" target="_blank"><h3 className="highlight">Read More Blog Posts on Medium</h3></a>
       <style jsx>{`

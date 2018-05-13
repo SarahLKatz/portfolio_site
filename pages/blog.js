@@ -26,6 +26,7 @@ export default () => {
         date="April 15, 2018"
         url="https://medium.com/@sarahscode/my-perfect-workplace-279870863ace"
         summary={`Lately I’ve found myself in a bit of a funk. My job just isn’t as exciting as I had hoped it would be (which I’m actually coming to terms with … I don’t need excitement 24/7) and while I have had some medium-exciting non-work things going in, it’s just not enough to drag me out of my funk. But the other day, while contemplating my second cup of coffee, I came up with a question that I thought it would be fun to answer:`}
+      />
       <a href="https://medium.com/@sarahscode" target="_blank"><h3 className="highlight">Read More Blog Posts on Medium</h3></a>
       <style jsx>{`
         a {

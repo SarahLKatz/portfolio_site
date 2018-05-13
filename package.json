@@ -18,7 +18,7 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "next build",
-    "deploy": "bash script/deploy"
+    "deploy": "bash script/deploy.sh"
   },
   "keywords": [],
   "author": "",

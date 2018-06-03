@@ -15,7 +15,7 @@ export default () => {
         <a href="/solo"><img src="/static/projects/wdwtimeline.jpg" alt="solo projects"/></a>
         <a href="/group"><img src="/static/projects/viewtrition.jpg" alt="group projects"/></a>
         <a href="/blog"><img src="/static/medium.jpg" alt="my blog!"/></a>
-        <a href="/sarah"><img src="/static/mostRecent/raceMedal.jpg" alt="life outside coding"/></a>
+        {/*<a href="/sarah"><img src="/static/mostRecent/raceMedal.jpg" alt="life outside coding"/></a>*/}
       </div>
       <div className="contact-me">
         <h3 className="large">Get In Touch!</h3>

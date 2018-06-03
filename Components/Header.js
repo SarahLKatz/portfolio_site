@@ -18,7 +18,7 @@ export default class Header extends Component {
           <Link href="/solo"><a>Solo Projects</a></Link>
           <Link href="/group"><a>Group Projects</a></Link>
           <Link href="/blog"><a>Life As A Coder</a></Link>
-          <Link href="/sarah"><a>Life Outside Coding</a></Link>
+          {/*<Link href="/sarah"><a>Life Outside Coding</a></Link>*/}
           <div className="contact">
             <a href="mailto:sarah@sarahlkatz.com">sarah@sarahlkatz.com</a>
           </div>
